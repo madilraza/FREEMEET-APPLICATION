@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" opacity="0.94" prefHeight="776.0" prefWidth="739.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="freemeet.application.PaymentsController">
+   <children>
+      <Separator layoutX="229.0" orientation="VERTICAL" prefHeight="640.0" prefWidth="5.0" />
+      <Separator layoutX="234.0" layoutY="117.0" opacity="0.44" prefHeight="16.0" prefWidth="500.0" />
+      <ImageView fitHeight="121.0" fitWidth="535.0" layoutX="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Desktop/account.PNG" />
+         </image>
+      </ImageView>
+      <Button contentDisplay="TEXT_ONLY" layoutX="355.0" layoutY="144.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="263.0" text="Sign up with FreeMeet" />
+      <TextField layoutX="362.0" layoutY="247.0" prefHeight="37.0" prefWidth="216.0" />
+      <TextField layoutX="366.0" layoutY="310.0" prefHeight="37.0" prefWidth="208.0" />
+      <TextField layoutX="369.0" layoutY="370.0" prefHeight="37.0" prefWidth="208.0" />
+      <DatePicker layoutX="369.0" layoutY="429.0" prefHeight="37.0" prefWidth="223.0" />
+      <TextField layoutX="369.0" layoutY="486.0" prefHeight="37.0" prefWidth="223.0" />
+      <PasswordField layoutX="366.0" layoutY="550.0" prefHeight="37.0" prefWidth="223.0" />
+      <CheckBox layoutX="370.0" layoutY="608.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox layoutX="370.0" layoutY="640.0" mnemonicParsing="false" text="CheckBox" />
+      <ButtonBar layoutX="14.0" layoutY="722.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Button" />
+         </buttons>
+      </ButtonBar>
+      <Button layoutX="606.0" layoutY="738.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Button" />
+   </children>
+</AnchorPane>

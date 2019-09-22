@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="freemeet.application.FlutterController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="799.0" prefWidth="765.0" style="-fx-background-color: #000000;">
+         <children>
+            <AnchorPane accessibleRole="BUTTON" cache="true" focusTraversable="true" mouseTransparent="true" prefHeight="753.0" prefWidth="765.0">
+               <children>
+                  <BorderPane layoutY="610.0" prefHeight="125.0" prefWidth="759.0">
+                     <top>
+                        <Label prefHeight="12.0" prefWidth="130.0" text="Terms and conditions " textFill="#d3971e" BorderPane.alignment="CENTER" />
+                     </top>
+                     <left>
+                        <ImageView fitHeight="102.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../../Desktop/azure.PNG" />
+                           </image>
+                        </ImageView>
+                     </left>
+                     <right>
+                        <ImageView fitHeight="99.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../../Desktop/google.PNG" />
+                           </image>
+                        </ImageView>
+                     </right>
+                     <center>
+                        <ImageView fitHeight="98.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../../../../Desktop/aws.PNG" />
+                           </image>
+                        </ImageView>
+                     </center>
+                  </BorderPane>
+                  <Separator layoutX="-1.0" layoutY="49.0" prefHeight="8.0" prefWidth="765.0" />
+                  <AnchorPane prefHeight="52.0" prefWidth="765.0">
+                     <children>
+                        <ImageView fitHeight="52.0" fitWidth="114.0" layoutX="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../Desktop/n.PNG" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="52.0" fitWidth="150.0" layoutX="153.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="Doc" accessibleRole="COMBO_BOX" blendMode="LIGHTEN" cache="true" cacheHint="QUALITY" contentDisplay="TOP" ellipsisString="%key.unspecified" layoutX="136.0" layoutY="12.0" onAction="#Documentation" prefHeight="31.0" prefWidth="108.0" style="-fx-background-color: #f00000;" text="Documentation " textFill="#e1dcdc" AnchorPane.rightAnchor="521.0">
+                           <effect>
+                              <Bloom threshold="1.0">
+                                 <input>
+                                    <Glow level="0.98" />
+                                 </input>
+                              </Bloom>
+                           </effect>
+                        </Button>
+                        <Button fx:id="projects" layoutX="251.0" layoutY="12.0" mnemonicParsing="false" onAction="#Proj" prefHeight="31.0" prefWidth="77.0" stylesheets="@cr.css" text="Projects" />
+                        <Button layoutX="337.0" layoutY="12.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="77.0" text="Updates" />
+                        <Button fx:id="Msg" layoutX="420.0" layoutY="12.0" mnemonicParsing="false" onAction="#Messages" prefHeight="31.0" prefWidth="108.0" text="Messages" />
+                        <Button fx:id="PoP" layoutX="637.0" layoutY="8.0" mnemonicParsing="false" onAction="#Post_projects" prefHeight="38.0" prefWidth="125.0" text="Post a Project">
+                           <stylesheets>
+                              <URL value="@Project%20post.css" />
+                              <URL value="@Project%20post.css" />
+                           </stylesheets>
+                        </Button>
+                        <Button fx:id="Pay" layoutX="537.0" layoutY="12.0" mnemonicParsing="false" onAction="#Payments" prefHeight="31.0" prefWidth="77.0" stylesheets="@cr.css" text="Payments" />
+                     </children>
+                  </AnchorPane>
+                  <Separator layoutX="182.0" layoutY="80.0" opacity="0.78" orientation="VERTICAL" prefHeight="520.0" prefWidth="7.0" />
+                  <AnchorPane layoutX="-1.0" layoutY="82.0" prefHeight="520.0" prefWidth="184.0" />
+                  <Separator layoutY="597.0" opacity="0.61" prefHeight="8.0" prefWidth="766.0" />
+                  <AnchorPane layoutX="189.0" layoutY="80.0" prefHeight="520.0" prefWidth="576.0">
+                     <children>
+                        <Separator layoutY="107.0" prefHeight="0.0" prefWidth="576.0" />
+                        <Separator layoutY="239.0" prefHeight="3.0" prefWidth="576.0" />
+                        <Separator layoutY="378.0" prefHeight="16.0" prefWidth="583.0" />
+                        <ButtonBar layoutX="7.0" layoutY="110.0" prefHeight="40.0" prefWidth="200.0" />
+                     </children>
+                  </AnchorPane>
+                  <TextField layoutX="189.0" layoutY="53.0" opacity="0.73" prefHeight="31.0" prefWidth="216.0" promptText="Search  For Projects " />
+                  <Label layoutX="414.0" layoutY="53.0" prefHeight="31.0" prefWidth="77.0" text="1234 results" textFill="#f5f0f0" />
+                  <Icon content="ACCOUNT_BALANCE_WALLET" layoutX="346.0" layoutY="49.0" prefHeight="40.0" prefWidth="67.0" />
+                  <ChoiceBox layoutX="587.0" layoutY="55.0" prefHeight="25.0" prefWidth="125.0" />
+               </children>
+               <effect>
+                  <Glow level="0.11" />
+               </effect>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

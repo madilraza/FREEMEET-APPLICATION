@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="606.0" prefWidth="803.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="freemeet.application.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="706.0" prefWidth="693.0" style="-fx-background-color: #000000;">
+         <children>
+            <MenuBar layoutX="-6.0" layoutY="-5.0" prefHeight="32.0" prefWidth="699.0" style="-fx-background-color: #ff50a7;">
+               <menus>
+                  <Menu mnemonicParsing="false" text="File">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action">
+                           <accelerator>
+                              <KeyCodeCombination alt="ANY" code="ENTER" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Edit">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="view">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="my website">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Document">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Tools">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </Menu>
+               </menus>
+               <contextMenu>
+                  <ContextMenu>
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                     </items>
+                  </ContextMenu>
+               </contextMenu>
+            </MenuBar>
+            <AnchorPane layoutX="179.0" layoutY="27.0" prefHeight="509.0" prefWidth="514.0">
+               <children>
+                  <ImageView fitHeight="509.0" fitWidth="522.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@main.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="start" layoutX="55.0" layoutY="380.0" mnemonicParsing="false" onAction="#start" prefHeight="50.0" prefWidth="421.0" text="GET REGISTERED NOW..">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="90.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="345.0" text="SERVICES AND PRODUCTS" />
+                  <Label layoutX="118.0" layoutY="55.0" prefHeight="43.0" prefWidth="274.0" style="-fx-background-color: #ffffff;" text="MUHAMMAD ADIL RAZA YOUNUS K18-SW-18" textFill="#110000" />
+               </children>
+            </AnchorPane>
+            <Pane layoutX="-4.0" layoutY="27.0" prefHeight="509.0" prefWidth="184.0">
+               <children>
+                  <Label layoutX="-2.0" prefHeight="55.0" prefWidth="191.0" text="    HIRE THE FREELANCER" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="web_1" layoutX="2.0" layoutY="61.0" mnemonicParsing="false" onAction="#web" prefHeight="43.0" prefWidth="184.0" text="Web Developer">
+                     <textFill>
+                        <RadialGradient centerX="0.13333333333333336" centerY="0.6095238095238096" radius="0.5">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Button>
+                  <Button fx:id="android" layoutX="2.0" layoutY="104.0" mnemonicParsing="false" onAction="#Android" prefHeight="43.0" prefWidth="184.0" text="Android Developer" />
+                  <Button layoutX="-1.0" layoutY="150.0" mnemonicParsing="false" onAction="#ghrap" prefHeight="43.0" prefWidth="184.0" text="Ghrapics Designer" />
+                  <Button layoutX="-1.0" layoutY="193.0" mnemonicParsing="false" onAction="#work" prefHeight="43.0" prefWidth="184.0" text="Content Writter " />
+                  <Button layoutX="-1.0" layoutY="236.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="184.0" text="BackEnd Developer" />
+                  <Button layoutX="-1.0" layoutY="279.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="184.0" text="FrontEnd Developer" />
+                  <Label layoutX="1.0" layoutY="319.0" prefHeight="43.0" prefWidth="178.0" text="         DEVELOPMENT TOOLS">
+                     <font>
+                        <Font name="Cordia New Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="-1.0" layoutY="362.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="184.0" text="Flutter " />
+                  <Button layoutX="-2.0" layoutY="394.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="184.0" text="Angular" />
+                  <Button layoutX="-2.0" layoutY="458.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="184.0" text="REACTnative" />
+                  <Button layoutX="-2.0" layoutY="483.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="184.0" text="JAVA DEVELOPMENT" />
+                  <Button layoutX="-1.0" layoutY="426.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="184.0" text="Jetpack" />
+               </children>
+            </Pane>
+            <Pane layoutY="536.0" prefHeight="200.0" prefWidth="693.0">
+               <children>
+                  <Label layoutX="-1.0" layoutY="-2.0" prefHeight="55.0" prefWidth="693.0" text="                                                                         TOP PROJECTS AND SERVICES" />
+                  <Button layoutX="5.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="104.0" text="Reign building " />
+                  <Button layoutX="109.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="seo markiting " />
+                  <Button layoutX="203.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="pizza hut" />
+                  <Button layoutX="297.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="86.0" text="food delivery" />
+                  <Button layoutX="5.0" layoutY="100.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="104.0" text="pdf reader" />
+                  <Button layoutX="109.0" layoutY="96.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="Dating App" />
+                  <Button layoutX="203.0" layoutY="96.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="password manager" />
+                  <Button layoutX="297.0" layoutY="96.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="86.0" text="Advertisment" />
+                  <Button layoutX="5.0" layoutY="139.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="104.0" text="Tracking app" />
+                  <Button layoutX="109.0" layoutY="139.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="SPY" />
+                  <Button layoutX="204.0" layoutY="139.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="Cordova" />
+                  <Button layoutX="298.0" layoutY="139.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="86.0" text="Zomato" />
+                  <Button layoutX="383.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="IONIC 4" />
+                  <Button layoutX="384.0" layoutY="98.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="Taxi" />
+                  <Button layoutX="383.0" layoutY="139.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="94.0" text="Biugo" />
+                  <Button layoutX="478.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="86.0" text="Education app" />
+                  <Button layoutX="478.0" layoutY="96.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="86.0" text="Pooker" />
+                  <Button layoutX="477.0" layoutY="141.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="86.0" text="Streaming" />
+                  <Button layoutX="564.0" layoutY="53.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="127.0" text="QR CODE" />
+                  <Button layoutX="563.0" layoutY="96.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="127.0" text="Talabat.com" />
+                  <Button layoutX="564.0" layoutY="139.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="127.0" text="xamarin" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
