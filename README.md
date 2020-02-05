@@ -4,4 +4,7 @@
 # Inspiration
 Today the IT era is running and generation is very interested in working remotely to the home
 # https://devpost.com/software/freemeet-application
-![Design preview freemeet](main.png)
+![Design preview freemeet](main.png   )
+
+![Design preview freemeet](   src/freemeet/application/Images/2.JPG)
+      
