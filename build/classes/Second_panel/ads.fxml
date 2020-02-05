@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="-1.0" prefHeight="449.0" prefWidth="636.0">
+         <children>
+            <AnchorPane id="AnchorPane" layoutX="-3.0" prefHeight="438.0" prefWidth="629.0" style="-fx-background-color: #000000;">
+               <children>
+                  <ImageView fitHeight="270.0" fitWidth="525.0" layoutX="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../freemeet/application/img/images%20(11).jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="-1.0" layoutY="-1.0" mnemonicParsing="false" stylesheets="@../freemeet/application/start%20button%20of%20create%20account.css" text="BACK" />
+                  <ImageView fitHeight="31.0" fitWidth="29.0" layoutX="577.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../freemeet/application/Images/close.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="-1.0" layoutY="274.0" prefHeight="42.0" prefWidth="600.0" text="The most popular databases behind web applicationsamong respondents were MySQL (57%), MongoDB (46%)," textFill="#da2323" />
+                  <Label layoutX="8.0" layoutY="305.0" prefHeight="22.0" prefWidth="583.0" text="and PostgreSQL (39%). For web servers, respondentspreferred Apache Tomcat (57%) and Apache Web Server" textFill="#f54633" />
+                  <Label layoutY="326.0" prefHeight="22.0" prefWidth="605.0" text="(54%), with third place going to NGINX (41%). Respondentswho need to push real-time/streaming data from their" textFill="#f54633" />
+                  <Label layoutX="2.0" layoutY="348.0" prefHeight="22.0" prefWidth="605.0" text="server overwhelmingly said they use the WebSocket API(71%) over other methods like HTTP streaming (35%) and" textFill="#f54633" />
+                  <Label layoutY="370.0" prefHeight="22.0" prefWidth="605.0" text="polling (27%); HTTP streaming did gain a 9% increase fromthe 2016 results, while WebSocket dropped 6%. For web" textFill="#f54633" />
+                  <Label layoutY="392.0" prefHeight="22.0" prefWidth="633.0" text="app testing, Selenium was heavily used (56%), followed byJasmine (26%) and PhantomJS (25%). npm (63%) dominated" textFill="#f54633" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
