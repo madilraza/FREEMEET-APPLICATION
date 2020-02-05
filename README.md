@@ -6,5 +6,21 @@ Today the IT era is running and generation is very interested in working remotel
 # https://devpost.com/software/freemeet-application
 ![Design preview freemeet](main.png   )
 
+![Design preview freemeet](  src/freemeet/application/Images/meetup.PNG)
+      
 ![Design preview freemeet](   src/freemeet/application/Images/2.JPG)
+      
+![Design preview freemeet](   src/freemeet/application/Images/FOOTER.PNG)
+      
+![Design preview freemeet](   src/freemeet/application/Images/2.JPG)
+      
+![Design preview freemeet](   src/freemeet/application/Images/app1.PNG)
+      
+![Design preview freemeet](  src/freemeet/application/Images/cardova.PNG)
+      
+
+      
+![Design preview freemeet](  src/freemeet/application/Images/load.PNG)
+      
+![Design preview freemeet](   src/freemeet/application/Images/experts.PNG)
       
